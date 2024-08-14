@@ -1,13 +1,13 @@
-package me.learning.ToDo_API;
+package me.learning;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ToDoApiApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ToDoApiApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }
