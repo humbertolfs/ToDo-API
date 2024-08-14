@@ -19,7 +19,7 @@ public class Task {
 
     }
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
