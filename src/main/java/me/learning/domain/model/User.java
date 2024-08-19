@@ -16,9 +16,9 @@ public class User {
 
     private String username;
 
-    @JsonIgnore
     private String password;
 
+    @JsonIgnore
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<Task> listTasks = new ArrayList<>();
 
